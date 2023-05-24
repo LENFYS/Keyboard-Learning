@@ -1,0 +1,51 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+label[id='outputField']{
+    margin: 0 auto;
+    float: right;
+}
+
+
+.wrong{
+    color: red;
+}
+
+.good{
+    color: green;
+}
+
+#output{
+    top: 10%;
+    justify-content: center;
+    text-align: center;
+    left: 10px;
+    position: absolute;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+#inputField{
+    caret-color: transparent;
+    justify-content: center;
+    text-align: center;
+    left: 45%;
+    position: absolute;
+    font-weight: bold;
+    font-size: 48px;
+    width: 10%;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(115, 115, 115);
+    color: white;
+    text-align: center;
+    padding: 50px 50px;
+}
